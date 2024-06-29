@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS SCORE</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div id="header">IELTS SCORE CALCULATOR</div>
+    <div id="main">
+        <div id="l">Listening</div>
+        <div id="r">Reading</div>
+        <div id="w">Writing</div>
+        <div id="s">Speaking</div>
+        
+    </div>
+    <div id="calc">
+        <form id="plus" method="post">
+            <input type="button" name="lp" id="lp" value="+" onclick="lplus()">
+            <input type="button" name="rp" id="rp" value="+" onclick="rplus()">
+            <input type="button" name="wp" id="wp" value="+" onclick="wplus()">
+            <input type="button" name="sp" id="sp" value="+" onclick="splus()">
+        </form>
+        
+
+
+        <div id="ls">5</div>
+        <div id="rs">5</div>
+        <div id="ws">5</div>
+        <div id="ss">5</div>
+
+        <form id="min">
+            <input type="button" name="lm" id="lm" value="-" onclick="lmin()">
+            <input type="button" name="rm" id="rm" value="-" onclick="rmin()">
+            <input type="button" name="wm" id="wm" value="-" onclick="wmin()">
+            <input type="button" name="sm" id="sm" value="-" onclick="smin()">
+        </form>
+    </div>
+    <form id="footer">
+        <input type="button" name="c" id="c" value="Calculate"  onclick="cl()">
+    </form>  
+
+    <div id="overall">OVERALL: <p id="sc">5</p></div>
+
+    <script src="calc.js"></script>
+</body>
+</html>

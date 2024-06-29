@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: auto;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.733); 
+    text-align: center;
+    padding:30px 0px;
+    border-bottom: 7px double rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight:bold;
+}
+#main{
+    height:auto;
+    width:100%;
+    background-color:  wheat;
+    padding: 10px 0px;
+}
+#l, #r, #w, #s {
+    display:inline;
+    font-size: 25px;
+    margin:0 50px;
+    color:black;
+    font-weight: bold;
+}
+#l {
+    margin-left: 340px;
+}
+#calc {
+    width: 100%;
+    height: 300px;
+    background-color: whitesmoke;
+    
+    border-bottom:5px double rgba(0, 0, 0, 0.438);
+    border-top:5px double rgba(0, 0, 0, 0.438);
+}
+#ls, #rs, #ws, #ss {
+    display:inline;
+    font-size: 50px;
+    background-color: rgba(0, 255, 255, 0.425);
+    border: 2px solid black;
+    border-radius: 30%;
+    padding: 10px;
+    
+}
+#ls {
+    margin-left: 352px;
+}
+#rs {
+    position: sticky;
+    left: 545px;
+}
+#ws {
+    position: sticky;
+    left: 740px;
+}
+#ss {
+    position: sticky;
+    left: 935px;
+}
+
+#lp, #rp, #wp, #sp {
+    width: 50px;
+    height: 50px;
+    display:inline;
+    font-size: 50px;
+    background-color: #5eff0057;
+    border-radius: 100%;
+    margin: 20px 0px;
+    margin-right:140px;
+    border-style: dashed;
+    position: relative;
+
+
+}
+#lp {
+    margin-left: 350px;
+}
+#rp:hover {
+    background-color: #5eff00a9;
+}
+#wp:hover {
+    background-color: #5eff00a9;
+}
+#sp:hover {
+    background-color: #5eff00a9;
+}
+#lp:hover {
+    background-color: #5eff00a9;
+}
+
+#lm, #rm, #wm, #sm {
+    width: 50px;
+    height: 50px;
+    display:inline;
+    font-size: 50px;
+    background-color: #ff000062;
+    border-radius: 100%;
+    margin: 20px 0px;
+    margin-right:140px;
+    border-style: dashed;
+
+}
+#lm {
+    margin-left: 350px;
+}
+#lm:hover {
+    background-color: #ff0000b0;
+}
+#rm:hover {
+    background-color: #ff0000b0;
+}
+#wm:hover {
+    background-color: #ff0000b0;
+}
+#sm:hover {
+    background-color: #ff0000b0;
+}
+#footer {
+    height: auto;
+    width: 100%;
+    background-color: rgb(255, 208, 120); 
+    text-align: center;
+    padding:30px 0px;
+    border-bottom: 7px double black;
+
+}
+#c {
+    height: 50px;
+    width: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: darkgrey;
+}
+#c:hover {
+    background-color:grey ;
+}
+#overall {
+    height: 7.8vh;
+    width: 100%;
+    background-color: rgb(255, 153, 0); 
+    text-align: center;
+    padding:30px 0px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#sc{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
